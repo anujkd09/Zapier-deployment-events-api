@@ -1,0 +1,9 @@
+fastapi==0.136.3
+uvicorn[standard]==0.34.0
+SQLAlchemy==2.0.50
+pydantic==2.13.4
+
+# Dev / test dependencies
+pytest==8.3.4
+# starlette's TestClient requires httpx.
+httpx==0.28.1
